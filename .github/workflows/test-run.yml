@@ -3,7 +3,7 @@ name: Demo Test Run
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '30 4 * * MON-FRI'
+    - cron:  ''
   push:
     branches:
     - main
